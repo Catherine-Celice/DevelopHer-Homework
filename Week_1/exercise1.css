@@ -1,0 +1,121 @@
+body {
+	background-color: white;
+}
+
+section {
+	background-color: #E0ECF8;
+	width: 8in;
+	height: 6in;
+	border-radius: 10px;
+	padding: 40px;
+	margin: auto;
+}
+
+main {
+	color: black;
+	background-color: white;
+	/* center this */
+	margin: 80px auto;
+	font-family: Times New Roman;
+	width: 3.5in;
+	height: 3.7in;
+	border: 25px solid white;
+	box-shadow: 2px 5px 8px 4px #DCDCDC80;
+}
+h1 {
+	font-size: 18pt;
+	font-family: sans-serif;
+	text-align: center;
+	
+}
+h2 {
+	font-size: 11pt;
+	font-style: italic;
+	text-align: center;
+	color: grey;
+}
+form {
+	margin:auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+input:focus {
+	outline: none;
+}
+input {
+	border: 0px solid;
+	
+	padding-top: 15px;
+	padding-bottom: 0px;
+	/*position: absolute;
+	bottom: 0;
+	margin: 20px 0px;
+	*/
+	margin: 20px auto 3px;
+
+}
+button:focus {
+	outline: none;
+}
+button {
+	border: 0px solid;	
+}
+
+/*#lastline {
+	text-align: center;
+}*/
+
+
+.underline {
+	border-bottom: 1px solid black;
+	padding-bottom: 0px;
+	position: relative;
+	bottom: 0;
+	
+}
+
+
+#forgot {
+	font-size: 9pt;
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	background-color: white;
+	margin: 20px 0px 0px 0px;
+	color: grey;
+}
+
+/*#email {
+	display: block;
+}*/
+
+
+#password {
+	
+}
+
+#first {
+	background-color: #2E9AFE;
+	display:block;
+	margin: 15px auto;
+	width: 2.5in;
+	height: 0.4in;
+	color: white;
+	margin-top: 50px;
+}
+#second {
+	font-size: 9pt;
+	margin: auto;
+	background-color: white;
+	width: 2in;
+	display:block;
+
+}
+#buttons {
+	width: 3in;
+	margin: auto;
+}
+#lastline {
+	color: grey;
+}

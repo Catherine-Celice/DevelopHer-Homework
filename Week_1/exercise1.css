@@ -3,12 +3,12 @@ body {
 }
 
 section {
-	background-color: #E0ECF8;
+	background-color: #E4F0F8;
 	width: 8in;
 	height: 6in;
 	border-radius: 10px;
 	padding: 40px;
-	margin: auto;
+	margin: 20px auto;
 }
 
 main {
@@ -20,7 +20,8 @@ main {
 	width: 3.5in;
 	height: 3.7in;
 	border: 25px solid white;
-	box-shadow: 2px 5px 8px 4px #DCDCDC80;
+	box-shadow: 2px 5px 40px 5px #D1DBD2;
+	/* put 80 at theend of the color for nice transparency */
 }
 h1 {
 	font-size: 18pt;
@@ -96,7 +97,7 @@ button {
 }
 
 #first {
-	background-color: #2E9AFE;
+	background-color: #3398DA;
 	display:block;
 	margin: 15px auto;
 	width: 2.5in;

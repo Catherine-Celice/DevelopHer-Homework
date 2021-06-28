@@ -1,0 +1,126 @@
+
+/* my images have too much white space on the side, but I don't know how to fix that.
+   Looking at my measurements for the parts of my box model leaves me unable to explain it.
+   I tried adjusting the image size, but that moved the whole image container and did not fix the problem.
+   */
+    
+/* Exercise 2 -- week 1 - Thursday
+	My Piratety Life
+	Catherine Celice
+	*/
+    
+	
+h1 {
+	font-family: 'Seaweed Script', 'Brush Script MT', cursive;
+	padding: 1px 1px 15px 1px;
+}	
+
+
+.outerContainer {
+	background-color: grey;
+	background-color: #ccc;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+/* #tester {
+	background-color: #ddd;
+	border: 5px 5px 5px 5px solid red;
+}
+ */
+ 
+#mainWrapper {
+	width: 800px;
+	height: 1200px;
+	background-color: white;
+	margin: 0 auto;
+	padding:50px 70px 0px 70px;
+	font-family: 'Nanum Brush Script', cursive;
+	border: 0px;
+	
+}
+
+span {
+	color: #333;
+	font-size: 9pt;
+}
+
+#first {
+	/*position: inline;*/
+}
+
+#shipcontainer {
+	padding: 5px 5px 15px 5px;
+	background-color:white;
+	box-shadow: 3px 3px #999;
+	float: right;
+	position:relative;
+	border: 2px solid #ddd;
+	max-width: 33%;
+	margin: 0px 0px 0px 20px;
+	transform: rotate(3deg);
+}
+
+#shipcontainer span {
+	position: absolute;
+	right: 120px;
+	bottom: 0px;
+	text-align:center;
+}
+
+
+#ship {
+
+	/* width: 260px;
+	height: 220px; */
+	max-width: 95%;
+	height: auto;
+	margin: auto; 
+
+}
+
+#part1 {
+	/*float: right;*/
+	/* https://www.thesitewizard.com/css/put-text-next-to-image-and-centre-both.shtml */
+	text-align:justify;
+	padding: 0px 25px 0px 0px;
+	margin: 0px 25px 0px 0px;
+	
+}
+
+#blank {
+	float: clear;
+}
+
+#chestcontainer {
+		padding: 5px 5px 15px 5px;
+	background-color:white;
+	box-shadow: 3px 3px #999;
+	float: left;
+	position:relative;
+	border: 2px solid #ddd;
+	max-width: 33%;
+	margin: 0px 20px 3px 0px;
+	transform: rotate(-5deg);
+}
+
+#chestcontainer span {
+	position: absolute;
+	right: 120px;
+	bottom: 0px;
+	text-align:center;
+}
+
+
+#chest {
+
+	max-width: 95%;
+	height: auto;
+	margin: auto; 
+}
+
+#part2 {
+	text-align: justify;
+	
+}

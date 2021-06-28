@@ -1,0 +1,315 @@
+/*@font-face {
+			font-family: "flubber/Flubber";
+			src: url(./flubber/Flubber.ttf);
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@viewport {
+	width: device-width ;
+	zoom: 1.0 ;
+}
+
+body {
+
+
+	background-color: #f9fafc;
+	color: #69696a;
+	font-family: "Open Sans", sans-serif;
+	font-size: 8pt;
+
+}
+
+#first {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 1em 0em 10em 0em;
+	border-width: 0;
+	padding-left: 0;
+	width: 100%
+	
+}
+
+#firstH {
+	font-size: 10pt;
+	margin-bottom: 0.3em;
+
+}
+
+h1 {
+	color: #000;
+	font-size: 16pt;
+}
+
+#nav {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-bottom: 0.3em;
+	width: 100%;
+}
+
+
+
+#nav a {
+	text-decoration: none;
+	color: #69696a;
+	font-size: 10pt;
+	padding-top: 0.1em;
+	padding-right: 1em;
+}
+
+#nav button {
+	
+	width: 100%;
+
+}
+
+
+button {
+	color: #fff;
+	background-color: #000;
+	border-radius: 20px;
+	font-size: 10pt;
+	display: block;
+	width: 100%;
+	padding: 7px;
+}
+
+
+
+#first {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#firstH {
+	margin-top: 5px;
+}
+
+#first a {
+	/* ensure no underlines */
+	position: block;
+}
+
+
+
+
+#second {
+	display: inline-block;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#secondH {
+	margin-bottom: 2px;
+}
+
+#beside {
+	border: 0 0 0 2px solid #69696a;
+	margin: 0 0 0 2px;
+
+}
+
+#sideline {
+	border: 0 0 0 2px solid #69696a;
+	margin: 4px red;
+	 
+}
+	
+
+
+
+footer {
+	background-color: rgba(247, 193, 162, 0.7);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: inline-block;
+	padding: 8px;
+	font-size: 10pt;
+	margin-left: 0px;
+
+}
+
+footer a {
+	/* ensure no underlines */
+	text-decoration: none;
+	color: #69696a;
+	padding-right: 20px;
+
+
+
+
+
+}
+
+#left {
+	/*display: flex;
+	flex-direction: row;
+	justify-content: flex-start;*/
+	float: left;
+	color: #000;
+}
+
+#right {
+	/*display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-content: space-between;*/
+	float: right;
+	padding-right: 20px;
+
+}
+
+
+@media screen and (max-width: 767px) { 
+
+
+
+#third {
+	background-color: #f9fafc;
+	display: none;
+	/*visibility: none;*/
+}
+
+#large {
+	background-color: #f9fafc;
+	color: #f9fafc;
+	display: none;
+}
+	
+#medium {
+	background-color: #f9fafc;
+	display: none;
+}
+	
+#small {
+	background-color: #f9fafc;
+	display: none;
+}
+
+}
+
+
+
+
+
+/* ==================================================================================================================== */
+
+@media screen and (min-width: 768px) { 
+	
+	
+#first {
+
+	display: flex;
+	align-items:center;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1em 0em 10em 0em;
+	border-width: 0;
+	padding-left: 0;
+	width: 100%;
+	
+}
+
+#firstH {
+	font-size: 10pt;
+	margin-bottom: 0.3em;
+
+}
+
+h1 {
+	color: #000;
+	font-size: 16pt;
+}
+
+#nav {
+	display: flex;
+	align-items:center;
+	flex-direction: row;
+	justify-content: flex-around;
+	margin-bottom: 0.3em;
+}
+
+
+
+#nav a {
+	text-decoration: none;
+	color: #69696a;
+	font-size: 10pt;
+
+	padding-top: 0.1em;
+	padding-right: 1em;
+}
+
+#nav button {
+	width: 60pt;
+
+}
+
+
+	
+#content {
+	float: clear;
+	height:70%;
+}
+	
+	
+	#second {
+		width: 50%;
+		display: inline-block;
+		height: 100%;
+	}
+	
+	#third {
+
+	display: inline-block;
+	background-color: #f9fafc;
+	color: blue;
+	position: relative;
+	width: 47%;
+	height: 100%;
+	vertical-align: top;
+	}
+	
+	/* https://www.w3schools.com/howto/howto_css_circles.asp */
+	
+	#large {
+		background-color: rgba(247, 136, 167, 0.6);
+		position: absolute;
+		right: 45px;
+		top: 25px;
+		height: 140px;
+		width: 140px;
+		border-radius: 50%;
+		
+	}
+	
+	#medium {
+		background-color: rgba(247, 193, 162, 0.7);
+		border-radius: 100px;
+		position: absolute;
+		right: 5px;
+		top: 110px;
+		height: 110px;
+		width: 110px;
+		border-radius: 50%;
+		z-index: 3;
+	}
+	
+	#small {
+		background-color: rgba(207, 130, 213, 0.6);
+		border-radius: 50px;
+		position: absolute;
+		right: 5px;
+		top: 52px;
+		height: 80px;
+		width: 80px;
+		border-radius: 50%;
+	}
+}
+

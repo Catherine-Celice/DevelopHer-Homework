@@ -1,0 +1,90 @@
+/* Week 2 Homework Exercise 5 */
+/* Monday, 1 July, 2021 */
+/* Caatherine Angela Celice */
+
+
+
+body {
+		
+	/* per Shannon Hoey -- this should get rid of the small white border around the web page. */	
+	box-sizing: border-box;
+	font-size: 60pt;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 0;
+
+	
+}
+
+div {
+	border: 1px solid black;
+	margin: 0;
+	text-align: center;
+	position: relative;
+
+	
+}
+
+span {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin: 0;
+	margin-top: -30pt;
+	left:50%;
+	margin-left: -30pt;
+	padding: 0;
+	border: 0;
+
+	
+}
+
+
+
+#box1 {
+	background-color: #f44336;
+	
+}
+
+#box2 {
+	background-color: #ff9800;
+	
+}
+
+#box3 {
+	background-color: #ffeb3b;
+	
+}
+
+#box4 {
+	background-color: #8bc34a;
+	
+}
+
+#box5 {
+	background-color: #2196f3;
+	
+}
+
+#box6 {
+	background-color: #9c27b0;
+	
+}
+
+
+
+
+@media screen and (min-width: 600px) { 
+
+	body {
+		grid-template-columns: auto auto auto;
+		
+	}
+	
+
+}
+

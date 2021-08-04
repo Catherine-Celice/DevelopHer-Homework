@@ -1,0 +1,341 @@
+
+
+
+body {
+    background-color: green;
+}
+
+
+h1 {
+    color: hotpink;
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    color: darkblue;
+    margin: 15px;
+    padding-top: 15px;
+
+}
+
+section {
+    background-color: honeydew;
+    margin: 30px;
+
+}
+
+span {
+    display: inline-block;
+    width: 80px;
+    font-weight: bolder;
+}
+
+#vending p {
+    font-weight: bold;
+}
+
+#vending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+
+.soda-pop {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.liner {
+    margin: 0px;
+    padding: 0px;
+    /* line-height: 60px; */
+    border-width: 6px;
+}
+
+.innerliner {
+    height: 80px;
+    width: 160px;
+    margin: 20px;
+    text-align: center;
+    border-style: outset;
+    /* background-color: #CCCCCC; */
+    border-width: 10px;
+}
+
+.Button {
+    /* margin-left: 50px; */
+    
+
+}
+
+.liner2 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    border-width: 6px;
+}
+
+.innerliner2 {
+
+    height: 30px;
+    width: 125px;
+    margin: 20px;
+    text-align: center;
+    border-style: outset;
+    background-color: #CCCCCC;
+
+}
+
+
+#lime {
+    background-color: limegreen;
+    float: left;
+
+}
+
+#peanuts {
+    background-color: peru;
+    float: right;
+
+}
+
+#chocolate {
+    background-color: sienna;
+    float: left;
+
+}
+
+#gummies {
+    background-color: slateblue;
+    float: right;
+
+}
+
+
+#money {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+
+#coins {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    min-height: 200px;
+
+}
+.penny {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:rgb(203,109,81);
+    /* position: relative; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 1px;
+
+}
+
+.one {
+    /* position:absolute;
+    top: 35px;
+    left: 35px; */
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    
+}
+.nickel {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(211,211,211);
+    /* background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%); */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 1px;
+}
+
+.five {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.dime {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgb(220,220,220);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 1px;
+}
+
+.ten {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.quarter {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color:rgb(191,193,194);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 1px;
+}
+
+.twentyfive {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.halfdollar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color:rgb(235,235,235);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 1px;
+}
+
+.fifty {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.silverdollar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgb(229,228,226);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 1px;
+}
+
+.dollar {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+#light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#lightbulb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 30px;
+    height: 300px;
+
+
+}
+
+#bulb {
+    background-color: whitesmoke;
+    /* background-color:yellow; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+  
+
+}
+
+
+
+#topbase {
+    background-color: whitesmoke;
+    /* background-color:yellow; */
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 200px;
+
+}
+
+#bottombase {
+    background-color: goldenrod;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 260px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+}
+
+#bottomknob {
+    background-color: goldenrod;
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    top: 300px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+
+}
+
+#switches {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+
+}
+
+/* #total3 {
+    min-width: 160 px;
+    min-height: 80 px;
+    border: 2px solid black;
+    max-width: 300px;
+    background-color: white;
+
+} */
+
+
+#extended p {
+    font-weight: bold;
+}
+
+#extended {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+
+#coins2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    min-height: 200px;
+
+}

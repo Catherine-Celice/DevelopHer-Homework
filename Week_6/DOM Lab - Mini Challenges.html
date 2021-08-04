@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="DOM Lab - Mini Challenges.css">
+	
+    <style>
+        .centSign:after {
+            content: \00A2;
+        }
+        .dollarSign:before {
+            content: '$';
+        }
+    </style>
+    <title>DOM Labs</title>
+</head>
+<body>
+    
+    <h1>Have Fun Today!</h1>
+    <section>
+        <h2>1. Vending Machine</h2>
+        <section id="vending">
+            <p>Total: <span id="total1"></span> </p>
+            <div class="soda-pop">
+                <div class="Button">
+                    <div class=liner>
+                        <div class="innerliner" id="lime"><p>LIME COLA</p><p>$2.00</p></div>
+                    </div>
+                </div>
+
+                <div class="Button">
+                    <div class=liner>
+                        <div class="innerliner" id="peanuts"><p>SALTED PEANUTS</p><p>$3.00</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="soda-pop">
+                <div class="Button">
+                    <div class=liner>
+                        <div class="innerliner" id="chocolate"><p>CHOCOLATE BAR</p><p>$4.00</p></div>
+                    </div>
+                </div>
+
+                <div class="Button">
+                    <div class=liner>
+                        <div class="innerliner" id="gummies"><p>FRUIT GUMMIES</p><p>$6.00</p></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    <section>
+        <h2>2. Making Money</h2>
+            <section id="money">
+            <form>
+                <fieldset id="f1">
+                    <p>
+                        <label>How many?</label>
+                        <input type="text" name="numCoins" id="numCoins">
+                    </p>
+                    
+                    <p>
+                        <label>Which coin?</label>
+                        <select id="coinType">
+                            <option>Penny</option>
+                            <option>Nickel</option>
+                            <option>Dime</option>
+                            <option>Quarter</option>
+                            <option>Half-Dollar</option>
+                            <option>Silver Dollar</option>
+                        </select>
+                    </p>
+                </fieldset>
+            </form>
+
+            <div class="Button" id="makeMoney">
+                <div class="liner2"> 
+                    <div class= "innerliner2">Make Money</div>
+                </div>
+            </div>
+
+            <div id="coins">
+
+            </div>
+
+
+            
+
+
+
+        </section>
+    </section>
+
+    <section>
+        <h2>3. Light Bulb</h2>
+        <section id="light">
+            <div id="lightbulb">
+                <div id="bulb" class="lightsUp"></div>
+                <!-- <div id="base"> -->
+                    
+                    <div id="topbase" class="lightsUp"></div>
+                    <div id="bottombase"></div>
+                    <div id="bottomknob"></div>
+                <!-- </div> -->
+                
+            </div>
+            <div id="switches">
+                <div class="Button" id="on">
+                    <div class="liner2">
+                        <div class= "innerliner2">On</div>
+                    </div>
+                </div>
+                <div class="Button" id="off">
+                    <div class="liner2">
+                        <div class= "innerliner2">Off</div>
+                    </div>
+                </div>
+                <div class="Button" id="toggle">   
+                    <div class="liner2">
+                        <div class= "innerliner2">Toggle</div>
+                    </div>
+                </div>
+                <div class="Button" id="end">
+                    <div class="liner2">
+                        <div class= "innerliner2">End</div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+    <section>
+    <h2>Extended Challenges: Making Money - Redux</h2>
+
+        <section id="extended">
+<!--             <div id="total3">
+                $
+            </div> -->
+            <p>Total: <span id="total2"></span> </p>
+            <form>
+                <fieldset>
+                    <p>
+                        <label>How many?</label>
+                        <input type="text" name="numCoins" id="numCoins2">
+                    </p>
+                    
+                    <p>
+                        <label>Which coin?</label>
+                        <fieldset id="f2">
+                            
+                            <label>
+                                <input type="radio" name="whichCoin" value="Penny" id="pennyRadio" class="pickCoin">
+                                Penny                            
+                            </label>
+                                
+                            <label>
+                                <input type="radio" name="whichCoin" value="Nickel" id="nickelRadio" class="pickCoin">
+                                Nickel                        
+                            </label>
+
+                            <label>
+                                <input type="radio" name="whichCoin" value="Dime" id="dimeRadio" class="pickCoin">
+                                Dime   
+                            </label>
+
+                            <label>
+                                <input type="radio" name="whichCoin" value="Quarter" id="quarterRadio" class="pickCoin">
+                                Quarter
+                            </label>
+
+                            <label>
+                                <input type="radio" name="whichCoin" value="Half-Dollar" id="halfRadio" class="pickCoin">
+                                Half-Dollar
+                            </label>
+
+                            <label>
+                                <input type="radio" name="whichCoin" value="Silver Dollar" id="dollarRadio" class="pickCoin">
+                                Silver Dollar
+                            </label>
+                        
+                        </fieldset>
+                    </p>
+                </fieldset>
+            </form>
+
+
+
+            <div class="Button" id="makeMoney2">
+                <div class="liner2"> 
+                    <div class= "innerliner2">Make Money</div>
+                </div>
+            </div>
+
+        
+
+
+            <div id="coins2">
+
+            </div>
+
+        </section>
+
+
+    </section>
+
+    <script src="DOM Lab - Mini Challenges.js"></script>
+
+</body>
+</html>

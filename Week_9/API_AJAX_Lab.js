@@ -1,5 +1,5 @@
 
-
+// subreddit
 const space = document.querySelector("section");
 const button = document.querySelector("button");
 button.addEventListener("click", changeSubreddit);
@@ -11,13 +11,17 @@ let startUrl = 'https://www.reddit.com/r/';
 let endUrl = '/.json';
 
 function changeSubreddit() {
-    const sub = document.querySelector("input");
+    const sub = document.getElementById("subreddit").value;
+    console.log(sub);
     if (sub != ""){
         APIurl = startUrl + sub + endUrl;
     }
-    return APIurl;
-
+    // return APIurl;
+    console.log(APIurl);
+    populate();
 }
+
+function populate(){
 
 
 fetch(APIurl, {
@@ -34,7 +38,7 @@ fetch(APIurl, {
     }
 });
 
-
+}
 
 function makePost(value, postNum){
 
@@ -87,4 +91,4 @@ function makePost(value, postNum){
 }
 
 
-
+populate();

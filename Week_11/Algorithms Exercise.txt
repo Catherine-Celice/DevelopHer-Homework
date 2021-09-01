@@ -1,0 +1,14 @@
+
+
+
+START
+Input array
+set sum = 0
+set num = 0
+Loop through array elements
+	if element is positive
+		sum = sum + element
+		num = num + 1
+Ave = sum/num
+output ave
+END
